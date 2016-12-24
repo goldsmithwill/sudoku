@@ -18,7 +18,7 @@ public class SudokuValidatorTest {
 		new SudokuValidator();
 		Assert.assertEquals(false, SudokuValidator.isValid(solution));
 	}
-
+	
 	@Test
 	public void testInvalidSubSquare() {
 		int[][] solution = { { 8, 3, 5, 4, 1, 6, 9, 2, 7 }, { 2, 9, 6, 8, 5, 7, 4, 3, 1 },
